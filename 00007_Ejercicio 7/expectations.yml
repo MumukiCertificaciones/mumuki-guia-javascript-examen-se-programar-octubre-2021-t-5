@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:Auto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
+  inspection: DeclaresMethod:nafta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
+  inspection: DeclaresMethod:$metodoParaCargar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
+  inspection: DeclaresMethod:$metodoParaVerificarNafta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$metodoParaVerificarNafta"
+  inspection: Not:UsesIf

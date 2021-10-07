@@ -1,0 +1,20 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+metodoParaCargar: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - cargar_nafta!
+  - cargar_combustible!
+  - cargar!
+metodoParaVerificarNafta: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - cargado?
+  - suficiente_nafta?
+  - suficiente_combustible?
+  - nafta_suficiente?
+  - suficiente_nafta?
+cantidadSuficienteDeCarga: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 20
+  - 50

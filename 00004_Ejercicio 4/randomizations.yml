@@ -1,0 +1,6 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+funcionParaMezclar: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - mezcladorDePalabras
+  - mezclarPalabras

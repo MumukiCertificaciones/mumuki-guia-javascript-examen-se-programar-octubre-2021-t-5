@@ -1,0 +1,7 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+metodoParaObtenerNombres: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - nombres_de_canciones
+  - nombres_de_las_canciones
+  - nombre_canciones
