@@ -10,3 +10,9 @@ PREDEFINIDO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value:
   - nombre
   - titulo
+OBJETO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Compilado
+  - Disco
+  - DiscoCompilado
