@@ -1,29 +1,29 @@
 module AmorAusente
-  def self.nombre
+  def self.$PREDEFINIDO
     'Amor Ausente'
   end
 end
 
 module Eco
-  def self.nombre
+  def self.$PREDEFINIDO
     'Eco'
   end
 end
 
 module Agujas
-  def self.nombre
+  def self.$PREDEFINIDO
     'Agujas'
   end
 end
 
 module ElBalcon
-  def self.nombre
+  def self.$PREDEFINIDO
     'El Balcon'
   end
 end
 
 module GuitarrasDeCarton
-  def self.nombre
+  def self.$PREDEFINIDO
     'Guitarras De Carton'
   end
 end
