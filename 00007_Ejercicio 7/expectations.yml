@@ -2,16 +2,16 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:Auto
+  inspection: Declares:$CLASE
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Auto
+  binding: "$CLASE"
   inspection: DeclaresMethod:nafta
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Auto
-  inspection: DeclaresMethod:$metodoParaCargar
+  binding: "$CLASE"
+  inspection: DeclaresMethod:$METODO_CARGAR
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Auto
-  inspection: DeclaresMethod:$metodoParaVerificarNafta
+  binding: "$CLASE"
+  inspection: DeclaresMethod:$METODO_VERIFICAR
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$metodoParaVerificarNafta"
+  binding: "$METODO_VERIFICAR"
   inspection: Not:UsesIf
