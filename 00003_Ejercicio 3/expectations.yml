@@ -2,10 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:$nombreFuncion
+  inspection: Declares:$FUNCION
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$nombreFuncion"
+  binding: "$FUNCION"
   inspection: Not:UsesIf
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity3:$nombreFuncion
+  inspection: DeclaresComputationWithArity3:$FUNCION

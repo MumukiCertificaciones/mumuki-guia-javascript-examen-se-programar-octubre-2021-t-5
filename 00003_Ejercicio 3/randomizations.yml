@@ -1,8 +1,8 @@
 --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-nombreFuncion: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:
-  - laRestaEsMenor
-  - esMenorLaResta
-  - laRestaEsMasChica
-  - esMasChicaLaResta
+  - laRestaEsMayor
+  - esMayorLaResta
+  - laRestaEsMasGrande
+  - esMasGrandeLaResta
