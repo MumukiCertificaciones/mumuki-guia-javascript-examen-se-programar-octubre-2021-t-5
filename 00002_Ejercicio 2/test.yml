@@ -1,6 +1,6 @@
 check_head_position: false
 
-subject: $nombreProcedimientoGbs
+subject: $PROCEDIMIENTO
 
 examples:
  - arguments:

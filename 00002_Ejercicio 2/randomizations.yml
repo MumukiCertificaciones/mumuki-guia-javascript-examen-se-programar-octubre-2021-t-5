@@ -1,5 +1,5 @@
 --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-nombreProcedimientoGbs: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+PROCEDIMIENTO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:
   - DibujarCruz
