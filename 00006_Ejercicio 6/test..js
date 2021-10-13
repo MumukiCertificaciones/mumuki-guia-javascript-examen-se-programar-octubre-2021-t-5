@@ -4,15 +4,33 @@ function transform(texto) {
 }
 
 describe("", function() {
-  it("el resumenEspectador de agus nos provee su información", function() {
-    assert.equal(transform(resumenEspectador(agus)), "se estima que wuisti vera 60 peliculas en un año por netfix");
+  let  agus = {
+    nick: "Wuisti",
+    promedioPeliculasMensuales: 5,
+    plataforma: "NetFix"
+  };
+
+  let ariel = {
+    nick: "Ari",
+    promedioPeliculasMensuales: 10,
+    plataforma: "Armazon"
+  };
+
+  let delfi = {
+    nick: "Pilse",
+    promedioPeliculasMensuales: 3,
+    plataforma: "NetFix"
+  };
+
+  it("el resumen de agus nos provee su información", function() {
+    assert.equal(transform($FUNCION(agus)), transform("$STRING_ESTIMACION que wuisti vera 60 peliculas en un año $STRING_PLATAFORMA netfix"));
   })
   
-  it("el resumenEspectador de ariel nos provee su información", function() {
-    assert.equal(transform(resumenEspectador(ariel)), "se estima que ari vera 120 peliculas en un año por armazon");
+  it("el resumen de ariel nos provee su información", function() {
+    assert.equal(transform($FUNCION(ariel)), transform("$STRING_ESTIMACION que ari vera 120 peliculas en un año $STRING_PLATAFORMA armazon"));
   })
   
-  it("el resumenEspectador de joa nos provee su información", function() {
-    assert.equal(transform(resumenEspectador(joa)), "se estima que jovita vera 36 peliculas en un año por netfix");
+  it("el resumen de delfi nos provee su información", function() {
+    assert.equal(transform($FUNCION(delfi)), transform("$STRING_ESTIMACION que pilse vera 36 peliculas en un año $STRING_PLATAFORMA netfix"));
   })
 })
