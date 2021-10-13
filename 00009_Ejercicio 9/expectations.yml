@@ -4,10 +4,10 @@ expectations:
   binding: Banda
   inspection: DeclaresMethod:tocar!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Guitarrista
+  binding: "$ARTISTA_1"
   inspection: DeclaresMethod:tocar!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Baterista
+  binding: "$ARTISTA_2"
   inspection: DeclaresMethod:tocar!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Triangulista
