@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:sumaDeLetrasDePalabrasCortas
+  inspection: Declares:$FUNCION
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:sumaDeLetrasDePalabrasCortas
+  inspection: DeclaresComputationWithArity1:$FUNCION
