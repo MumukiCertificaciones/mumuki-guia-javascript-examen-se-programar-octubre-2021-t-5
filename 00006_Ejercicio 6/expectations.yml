@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:resumenEspectador
+  inspection: Declares:$FUNCION
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:resumenEspectador
+  inspection: DeclaresComputationWithArity1:$FUNCION
